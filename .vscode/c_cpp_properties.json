@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${default}",
+                "C:/Data/Develop/HW/ESP/IDF/vscode/esp-idf/components/freertos/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "${env:IDF_TOOLS_PATH}/tools/xtensa-esp32-elf/esp-2021r2-patch2-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "windows-gcc-x86",
+            "browse": {
+                "path": [
+                    "${env:IDF_PATH}/components",
+                    "${env:IDF_TOOLS_PATH}",
+                    "${env:IDF_EXTRA_COMPONENT_DIRS}"
+                ]
+            }
+        }
+    ],
+    "version": 4
+}
